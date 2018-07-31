@@ -34,3 +34,5 @@ if (Environment.isDevelopmentMode() && targetDir != null) {
     logger("StackTrace", ERROR, ['FULL_STACKTRACE'], false)
 }
 root(ERROR, ['STDOUT'])
+
+logger('grails.app.init.gorm.upgrade.instof', DEBUG, ['STDOUT'], false)
